@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web de Nikatandem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- la descripción aparede debajo del titulo de la página -->
+    <meta name="description" content="Este sitio recoge los trabajos más significativos de Nika, como diseñadora web">
+    <!-- las palabras claves no son relevantes para google, pero viene bien tenerlas para saber a que se va a dirigir la página -->
+    <meta name="keywords" content="desarrollo web, diseño web, html, css, java script, json, mysql, markdown, git, xml, php">
+    <!-- las etiquetas og:--- son las que relacionan con redes sociales, son opcionales -->
+    <meta property="og:title" content="Portfolio de Nika" /> 
+    <meta property="og:description" content="Este sitio recoge los trabajos más significativos de Nika, como diseñadora web" />
+    <meta property="og:image" content="https://nikatandem.github.io/avatar_nikatandem.jpg" />
+</head>
+<body>
+<header>
+    <h1>Futuro portfolio de Nika</h1>
+    <figure>
+        <img src="avatar_nikatandem.jpg" alt="Foto del webmaster">
+    </figure>
+</header>
+<section itemscope itemtype="http://schema.org/Person"> 
+	Hola, mi nombre es 
+	<span itemprop="name">Veronica</span>, 
+	soy 
+	<span itemprop="jobTitle">desarrolladora web</span> 
+	en 
+	<span itemprop="affiliation">Patrimonio Nacional</span>. 
+	Me puedes llamar 
+	<span itemprop="additionalName">Nika</span>. 
+	Puedes visitar mis trabajos en  
+	<a href="https://nikatandem.github.io/" itemprop="url">https://nikatandem.github.io/</a>. 
+	<section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		Resido en 
+		<span itemprop="streetAddress">Aranjuez</span>,
+		<span itemprop="addressLocality">Madrid</span>,
+		<span itemprop="addressRegion">Madrid</span>.
+	</section>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
